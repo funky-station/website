@@ -1,4 +1,4 @@
-const funkyStationUrl = "http://play.funkystation.org:1213/status"
+const funkyStationUrl = "https://play.funkystation.org:1213/status"
 
 async function getData() {
     try {
