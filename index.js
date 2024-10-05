@@ -21,4 +21,4 @@ var res = await getData()
 document.getElementById('playersOnFunky').innerText = res.players
 document.getElementById('funkystationName').innerText = res.name
 document.getElementById('gamePreset').innerText = res.preset
-document.getElementById('gameMap').innerText = res.map
+document.getElementById('gameMap').innerText = res.map ? res.map : 'Lobby'
