@@ -1,0 +1,12 @@
+.inter-body {
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bottom-cirno {
+    position:fixed;
+    bottom:0px;
+    left:75%;
+}
