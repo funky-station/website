@@ -4,7 +4,7 @@ const funkyStationSandboxUrl = "https://status.funkystation.org/sandbox/status"
 
 async function updateServerStatus(id, source) {
   const serverCard = document.getElementById(id);
-  const serverStatus = serverCard.querySelector('.server-status');
+  const serverStatus = serverCard.parentElement;
 
   try {
     const response = await fetch(source);
