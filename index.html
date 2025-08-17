@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" style="background-color: #000;">
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/pico.blue.min.css" />
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/pico.min.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
@@ -17,177 +18,111 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="manifest" href="site.webmanifest" />
     <title>Funky Station</title>
-  </head>
+</head>
 
-  <body>
-    <div class="container">
-      <nav>
-        <ul>
-          <li>
-            <hgroup>
-              <h1 class="inter-body"><b>Funky Station</b></h1>
-              <p class="inter-body">The funkiest station around.</p>
-            </hgroup>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="https://github.com/funky-station/funky-station">GitHub</a>
-          </li>
-          <li>
-            <a href="https://discord.gg/funky14">Discord</a>
-          </li>
-          <li><a href="https://discord.gg/funky14">Wiki (coming soon!)</a></li>
-          <li><a href="https://forum.funkystation.org/">Forum</a></li>
-          <li><a href="https://forum.funkystation.org/blog">Blog</a></li>
-
-          <li>
-            <details class="dropdown">
-              <summary>
-                Replays
-              </summary>
-              <ul dir="rtl">
-                <li><a href="https://replays.funkystation.org/lrp1/">Cirno</a></li>
-                <li><a href="https://replays.funkystation.org/mrp1/">Scarlet</a></li>
-              </ul>
-            </details>
-          </li>
-
-        </ul>
-      </nav>
+<body>
+    <div class="center">
+        <h1 class="text-with-bg" style="font-size: 45px; font-weight: normal;">Funky Station</h1>
+        <p style="text-align: center; font-size: 25px;">cirnos getting funkay</p>
     </div>
 
-    <main class="container">
-      <hgroup>
-        <h1 class="inter-body">
-          <b
-            >Disasters, enemies, incompetence, and even more. <br />All
-            free-to-play.</b
-          >
-        </h1>
-        <br />
-        <h2 class="inter-body">Join with <code>play.funkystation.org</code></h2>
-      </hgroup>
-      <img src="images/cirno.png" class="bottom-cirno" style="height: 250px" />
-    </main>
+    <div class="background"></div>
 
-    <div class="container" style="max-width: 1200px;">
-      <div class="grid">
-        <div>
-          <div class="container">
-            <article class="inter-body">
-              <header class="inter-body"><b>What is Funky Station?</b></header>
-              We're a
-              <a
-                href="https://github.com/funky-station/funky-station"
-                class="contrast"
-                >fork</a
-              >
-              (our GitHub) of a
-              <a href="https://goobstation.com/" class="contrast">fork</a> (Goob
-              Station) of this
-              <a href="https://spacestation14.com" class="contrast">game</a>
-              (Space Station 14).
-              <br />
-              We do some things differently, and have our own changes in the
-              works. Check out our Discord for more.
-            </article>
 
-            <article class="inter-body">
-              <header class="inter-body">
-                <b>Do I have to pay to play?</b>
-              </header>
-              No!
-              <a href="https://spacestation14.com" class="contrast"
-                >Space Station 14</a
-              >
-              is free for anyone to play, visit the official website linked here
-              to see how to get the game on Steam or through its standalone
-              launcher.
-            </article>
-
-            <article class="inter-body">
-              <header class="inter-body">
-                <b>I love Funky Station! How can I help out?</b>
-              </header>
-              Join our Discord to see how! If you'd like to support the
-              community financially, please wait as official information is
-              released about that!
-            </article>
-
-            <article class="inter-body">
-              <header class="inter-body">
-                <b>Who's answering all these questions?!</b>
-              </header>
-              The maintainer and host of Funky Station, taydeo! Speak to them
-              directly on the official Funky Station Discord!
-            </article>
-          </div>
+    <div class="center">
+        <div class="horizontal-table">
+            <div style="color: #758bcd;"><a href="https://discord.gg/funky14">discord</a></div>
+            <div style="color: #e1e7ae;"><a href="https://patreon.com/taydeo">patreon</a></div>
+            <div style="color: #e07eaf;"><a href="https://wiki.funkystation.org/">wiki</a></div>
+            <div style="color: #9ff485;"><a href="https://forum.funkystation.org/">forum</a></div>
         </div>
-        <div>
-          <article class="inter-body server-card" id="server-cirno">
-            <header class="inter-body">
-              <b class="server-name">[EN][MRP] Funky Station - Cirno</b>
-            </header>
-            
-            <div class="server-status">
-              Players on: <code class="server-players">-</code>/<code class="server-maxplayers">-</code>
-              <br />
-              Round details: <inline class="server-preset">-</inline> on <inline class="server-map">-</inline>
-            </div>
-            
-            <footer>
-              Connect with
-
-              <code> play.funkystation.org </code>
-            </footer>
-          </article>
-
-          <article class="inter-body server-card" id="server-scarlet">
-            <header class="inter-body">
-              <b class="server-name">[EN][MRP] Funky Station - Scarlet</b>
-            </header>
-            
-            <div class="server-status">
-              Players on: <code class="server-players">-</code>/<code class="server-maxplayers">-</code>
-              <br />
-              Round details: <inline class="server-preset">-</inline> on <inline class="server-map">-</inline>
-            </div>
-            
-            <footer>
-              Connect with
-
-              <code> play.funkystation.org:1213 </code>
-            </footer>
-          </article>
-     
-          <article class="inter-body server-card" id="server-marisa">
-            <header class="inter-body">
-              <b class="server-name">[EN][MRP] Funky Station - Marisa</b>
-            </header>
-            
-            <div class="server-status">
-              Players on: <code class="server-players">-</code>/<code class="server-maxplayers">-</code>
-              <br />
-              Round details: <inline class="server-preset">-</inline> on <inline class="server-map">-</inline>
-            </div>
-            
-            <footer>
-              Connect with
-
-              <code> play.funkystation.org:1214 </code>
-            </footer>
-          </article>
-        </div>
-      </div>
     </div>
 
-    <footer>
-        <div class="container">
-            Made with 💖 by <a href="https://github.com/taydeo" class="contrast">taydeo</a>, and <a href="https://picocss.com/" class="contrast">picocss</a>.
+    <div class="center">
+        <div class="grid">
+            <div>
+                <p style="text-align: left; font-size: 25px;">what is funky station?</p>
+                <p>this is the website for a community called Funky Station, a fork of the game Space Station 14, themed
+                    around Touhou.</p>
+            </div>
+            <div>
+                <p style="text-align: left; font-size: 25px;">what is Space Station 14?</p>
+                <p>Space Station 14 is an online disaster simulator that takes place on a space station.</p>
+            </div>
         </div>
-    </footer>
-  </body>
 
-  <script src="index.js" type="module"></script>
+        <div class="grid">
+            <div>
+                <p style="text-align: left; font-size: 25px;">how do i play?</p>
+                <p>go to the official website and look for instructions. available via steam, flatpak, or standalone.
+                </p>
+            </div>
+            <div>
+                <p style="text-align: left; font-size: 25px;">is it free?</p>
+                <p>100% free</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <h1 class="" style="font-size: 25px; font-weight: normal;">servers</h1>
+
+        <div class="grid grid-min">
+            <div>
+                <p style="text-align: left; font-size: 25px; color: #8dabff;" id="server-cirno">cirno</p>
+                <div>
+                    <p style="margin-bottom: 0px;">mrp, high pop</p>
+                    <p style="margin-bottom: 0px;"><span class="server-players">-</span>/<span
+                            class="server-maxplayers">-</span> players</p>
+                    <p style="margin-bottom: 0px;"><span class="server-preset">-</span></p>
+                    <p style="margin-bottom: 0px;"><span class="server-map">-</span></p>
+                    <div style="color: #ffca1eda;"><a href="https://replays.funkystation.org/lrp1/">replays</a></div>
+                    <p style="margin-bottom: 0px;">play.funkstation.org</p>
+                </div>
+            </div>
+            <div>
+                <p style="text-align: left; font-size: 25px; color: #ff4f61;" id="server-scarlet">scarlet</p>
+                <div>
+                    <p style="margin-bottom: 0px;">mrp, low pop</p>
+                    <p style="margin-bottom: 0px;"><span class="server-players">-</span>/<span
+                            class="server-maxplayers">-</span> players</p>
+                    <p style="margin-bottom: 0px;"><span class="server-preset">-</span></p>
+                    <p style="margin-bottom: 0px;"><span class="server-map">-</span></p>
+                    <div style="color: #ffca1eda;"><a href="https://replays.funkystation.org/mrp1/">replays</a></div>
+                    <p style="margin-bottom: 0px;">play.funkstation.org:1213</p>
+                </div>
+            </div>
+            <div>
+                <p style="text-align: left; font-size: 25px; color: #e4d837" id="server-marisa">marisa</p>
+                <div>
+                    <p style="margin-bottom: 0px;">sandbox</p>
+                    <p style="margin-bottom: 0px;"><span class="server-players">-</span>/<span
+                            class="server-maxplayers">-</span> players</p>
+                    <p style="margin-bottom: 0px;"><span class="server-preset">-</span></p>
+                    <p style="margin-bottom: 0px;"><span class="server-map">-</span></p>
+                    <p style="margin-bottom: 0px;">play.funkstation.org:1214</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <h1 class="" style="font-size: 25px; font-weight: normal;">supported projects</h1>
+
+        <div class="grid grid-min">
+            <div>
+                <p style="text-align: left; font-size: 25px; color: #ff0000;">viva station</p>
+                <div>
+                    <p style="margin-bottom: 0px;">viva, low pop</p>
+                    <p style="margin-bottom: 0px;">0/30 players</p>
+                    <p style="margin-bottom: 0px;">Secret</p>
+                    <p style="margin-bottom: 0px;">n/a</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
 </html>

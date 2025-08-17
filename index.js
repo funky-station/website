@@ -1,5 +1,6 @@
 const funkyStationUrl = "https://status.funkystation.org/lrp/status"
 const funkyStationMrpUrl = "https://status.funkystation.org/mrp/status"
+const funkyStationSandboxUrl = "https://status.funkystation.org/sandbox/status"
 
 async function updateServerStatus(id, source) {
   const serverCard = document.getElementById(id);
@@ -14,7 +15,7 @@ async function updateServerStatus(id, source) {
 
     const json = await response.json();
 
-    serverCard.querySelector('.server-name').innerText = json.name;
+    // serverCard.querySelector('.server-name').innerText = json.name;
     serverStatus.querySelector('.server-players').innerText = json.players;
     serverStatus.querySelector('.server-maxplayers').innerText = json.soft_max_players;
     serverStatus.querySelector('.server-preset').innerText = json.preset;
@@ -26,6 +27,6 @@ async function updateServerStatus(id, source) {
   }
 }
 
-await updateServerStatus('server-cirno', 'http://play.funkystation.org:1212/status');
-await updateServerStatus('server-scarlet', 'http://play.funkystation.org:1213/status');
-await updateServerStatus('server-marisa', 'http://play.funkystation.org:1214/status');
+await updateServerStatus('server-cirno', funkyStationUrl);
+await updateServerStatus('server-scarlet', funkyStationMrpUrl);
+await updateServerStatus('server-marisa', funkyStationSandboxUrl);
