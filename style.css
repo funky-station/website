@@ -99,6 +99,15 @@ a:active {
   box-sizing: border-box;
 }
 
+.promo-banner {
+  text-align: center;
+}
+
+.promo-banner img {
+  max-width: 100%;
+  height: auto;
+}
+
 .bottom-cirno {
   position: fixed;
   bottom: 0px;
